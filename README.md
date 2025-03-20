@@ -1,6 +1,4 @@
-![Pipeline Status](https://code.fbi.h-da.de/stjolint/yapple-social/badges/main/pipeline.svg)
 
-[Click here to be view the website in live Server](http://13.60.18.228/login)
 
 # Yapple-Social
 
