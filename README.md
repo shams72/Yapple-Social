@@ -2,7 +2,7 @@
 
 # Yapple-Social
 
-Yapple-Social is a social media app, developed collaboratively with John Linthicum and Iheb Boussida from Hochschule Darmstadt. It allows users to share content, comment, and connect with others. The app provides an intuitive and user-friendly interface for quick and easy interactions with friends and the broader community.
+Yapple-Social is a social media app which allows users to share content, comment, and connect with others. The app provides an intuitive and user-friendly interface for quick and easy interactions with friends and the broader community.
 
 # Yapple Social - Tech Stack
 
@@ -53,3 +53,8 @@ To get started with the documentation as well as firing up the backend, [Click H
 
 To get started with the documentation as well as firing up the frontend, [Click Here](./frontend/README.md).
 
+### Authors and acknowledgment
+
+- Iheb Bouissida
+- John Linthicum
+- Shams Kabir
