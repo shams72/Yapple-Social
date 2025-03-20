@@ -1,0 +1,7 @@
+.container {
+    color: white;
+    margin-top: 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

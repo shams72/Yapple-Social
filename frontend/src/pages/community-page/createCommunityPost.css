@@ -1,0 +1,21 @@
+/* Styles for the post creation form and preview layout */
+
+.arrange-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+.max-height img {
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+#communityPost img {
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}

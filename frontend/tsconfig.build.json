@@ -1,0 +1,15 @@
+// production-only typescript config that extends main config
+// (excludes test files to prevent type conflicts during production build
+
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["vite/client", "node"]
+  },
+  "exclude": [
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/setupTests.ts",
+    "**/__tests__/**"
+  ]
+} 

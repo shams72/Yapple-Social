@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: dockerfile/frontend.dev.dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./src:/app/src
+  frontend_prod:
+    build:
+      context: .
+      dockerfile: dockerfile/frontend.production.dockerfile
+    volumes:
+      - ./dist:/app/dist
+    tty: true

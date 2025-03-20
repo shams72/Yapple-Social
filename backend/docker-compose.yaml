@@ -1,0 +1,42 @@
+version: "3.9"
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: dockerfile/backend.dev.dockerfile
+    volumes:
+      - ./src:/app/src
+      - ./tests:/app/tests
+    ports:
+      - 3000:3000
+    depends_on:
+      - mongo
+    environment:
+      - DATABASE_URL=mongodb://root:ganzGeheim@mongo:27017/
+      - SECRET_KEY=ganzGeheim
+      - TOKEN_SECRET=ganzGeheim
+  
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: ganzGeheim
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: ganzGeheim
+      ME_CONFIG_MONGODB_URL: mongodb://root:ganzGeheim@mongo:27017/
+      ME_CONFIG_BASICAUTH: false
+    volumes:
+      - persistentData:/data/db
+    depends_on:
+      - mongo
+
+volumes:
+  persistentData:

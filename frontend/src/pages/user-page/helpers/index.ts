@@ -1,0 +1,1 @@
+export { generateDateString } from "./generateDate";

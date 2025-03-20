@@ -1,0 +1,12 @@
+.horizontalSliding {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3em;
+    overflow: hidden;
+}
+
+.wrapper {
+    position: relative;
+    width: 70vw;
+    overflow: hidden;
+}

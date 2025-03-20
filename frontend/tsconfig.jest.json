@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "es2020",
+    "types": ["jest", "node", "@testing-library/jest-dom", "vite/client"],
+    "isolatedModules": false,
+    "noEmit": false,
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  },
+  "include": [
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/setupTests.ts",
+    "src/types/*.d.ts"
+  ],
+  "exclude": ["node_modules"]
+} 

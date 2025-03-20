@@ -1,0 +1,19 @@
+
+.show {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+@keyframes animate {
+    0% {
+        filter: blur(8px);
+    }
+
+    100% {
+        filter: blur(0px);
+    }
+}
+
+.blury {
+    position: relative;
+}

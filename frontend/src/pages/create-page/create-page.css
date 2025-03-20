@@ -1,0 +1,23 @@
+.create-page-container {
+  padding: 20px;
+  background-color: #f5f5f5;
+  margin-top: 64px; 
+  min-height: calc(100vh - 64px);
+}
+
+.tab-panel {
+  padding: 24px;
+}
+
+.create-page-wrapper {
+  position: relative;
+  margin-top: 120px;
+  padding: 20px;
+  min-height: calc(100vh - 120px);
+  background-color: #f5f5f5;
+}
+
+.create-page-wrapper .MuiContainer-root {
+  position: relative;
+  z-index: 1;
+} 

@@ -1,0 +1,20 @@
+.bannerImage {
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border: solid 0.1em black;
+    border-radius: 2em;
+    background-color: white;
+    margin-right: 5em;
+    margin-left: 5em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 3em;
+    width: 100vw;
+}

@@ -1,0 +1,16 @@
+.cardContainer {
+    all: unset;
+    width: 15em;
+    height: 11em;
+    border-radius: 10%;
+    min-width: 15em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContainer p{
+    color: black;
+}

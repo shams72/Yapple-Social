@@ -1,0 +1,16 @@
+export const mockCommunityContext = {
+  communities: [],
+  setCommunities: jest.fn(),
+  selectedCommunity: null,
+  setSelectedCommunity: jest.fn(),
+  isLoading: false,
+  setIsLoading: jest.fn(),
+  error: null,
+  setError: jest.fn(),
+  fetchCommunities: jest.fn(),
+  createCommunity: jest.fn(),
+  joinCommunity: jest.fn(),
+  leaveCommunity: jest.fn(),
+  updateCommunity: jest.fn(),
+  deleteCommunity: jest.fn(),
+}; 

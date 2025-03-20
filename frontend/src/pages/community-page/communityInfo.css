@@ -1,0 +1,57 @@
+/* Styles for the community information sidebar and its components */
+
+.community-info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: 'Arial', sans-serif; 
+    margin-left: 6vh;
+    margin-right: 2vh;
+    min-height: 60vh;
+    border-left: 5px solid #007bff;
+    border: 2px solid gray;
+
+}
+
+.community-info h1 {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 10px; 
+    text-align: left;
+}
+
+.community-info h2 {
+    font-size: 18px; 
+    color: #666; 
+    margin-bottom: 15px;
+    line-height: 1.5; 
+    text-align: left;
+}
+
+.community-info h3 {
+    font-size: 16px; 
+    color: #444; 
+    margin: 5px 0;
+    text-align: left;
+}
+
+.community-info h3 span {
+    font-weight: bold; 
+    color: #007bff;
+    text-align: left;
+}
+
+.community-info button {
+    font-weight: bold; 
+    background-color: yellow;
+    color:black;
+    border: #ffffff;
+    text-align: left;
+}
+
+.arrangePlatform {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
