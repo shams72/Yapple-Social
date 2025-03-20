@@ -53,7 +53,7 @@ To get started with the documentation as well as firing up the backend, [Click H
 
 To get started with the documentation as well as firing up the frontend, [Click Here](./frontend/README.md).
 
-### Authors and acknowledgment
+# Authors and acknowledgment
 
 - Iheb Bouissida
 - John Linthicum
